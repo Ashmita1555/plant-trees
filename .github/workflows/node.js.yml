@@ -24,5 +24,6 @@ jobs:
       run: |
           git config user.name 'Ashmita1555'
           git config user.email 'ashmitatimalsina12@gmail.com'
-          git commit -am "plant some tree 🌳"
+          git commit -m "$(date +"%D %T")"
+
           git push
