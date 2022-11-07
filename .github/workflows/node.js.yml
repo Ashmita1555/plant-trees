@@ -24,7 +24,7 @@ jobs:
       run: |
       
           git config user.name 'Ashmita1555'
-          git config user.email 'ashmitatimalsena12@gmail.com'
+          git config user.email 'ashmitatimalsina12@gmail.coms'
           git commit -m "Plant Tree"
           git push
           
