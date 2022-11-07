@@ -5,8 +5,7 @@ on:
     branches: master
   workflow_dispatch:
   schedule:
-        - cron: '0 */6 * * *'
-
+    - cron: '* * * * *'
 
 jobs:
   build:
@@ -23,7 +22,9 @@ jobs:
       run: node index.js > README.md
     - name: Commit change & Push
       run: |
+      
           git config user.name 'Ashmita1555'
-          git config user.email 'ashmitatimalsina12@gmail.com'
+          git config user.email 'ashmitatimalsena12@gmail.com'
           git commit -m "Plant Tree"
           git push
+          
